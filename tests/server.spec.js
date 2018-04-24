@@ -38,7 +38,7 @@ describe('server/app.js', function() {
     });
   });
 
-  it('page says hello world', (done) => {
+  it('page says I am awesome', (done) => {
     chai.request(server)
       .get('/')
       .end((err, res) => {
